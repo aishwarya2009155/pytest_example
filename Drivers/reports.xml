@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="4" time="0.159" timestamp="2021-04-14T18:53:57.935977" hostname="DESKTOP-2QKIU49"><testcase classname="test_file1.TestExample" name="test_add" time="0.022"><failure message="AssertionError: condition fail aish&#10;assert 2 == 3&#10;  +2&#10;  -3">self = &lt;Drivers.locators_ty.alerts_handeling_assignments.assignments_testing.test_file1.TestExample object at 0x0000017AE75BD670&gt;
+
+    def test_add(self):
+&gt;       assert 1+1==3, 'condition fail aish'
+E       AssertionError: condition fail aish
+E       assert 2 == 3
+E         +2
+E         -3
+
+test_file1.py:4: AssertionError</failure></testcase><testcase classname="test_file1.TestExample" name="test_sub" time="0.001" /><testcase classname="test_file1.TestExample" name="test_mul" time="0.001"><failure message="assert 2 == 3&#10;  +2&#10;  -3">self = &lt;Drivers.locators_ty.alerts_handeling_assignments.assignments_testing.test_file1.TestExample object at 0x0000017AE75C12E0&gt;
+
+    def test_mul(self):
+&gt;       assert 1*2==3
+E       assert 2 == 3
+E         +2
+E         -3
+
+test_file1.py:13: AssertionError</failure></testcase><testcase classname="test_file1.TestExample" name="test_div" time="0.001" /></testsuite></testsuites>
